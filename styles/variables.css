@@ -2,3 +2,31 @@
   Переменные для вашего проекта
   и их переопределение под различные устройства
 */
+
+:root {
+  --background-color: #000028;
+  --background-image: url(../images/cover-image-dark.png);
+  --primary-color: #FF0070;
+  --main-text-color: #000028;
+  --description-text-color: #F1B2CE;
+  --main-title-color: #DB00FF;
+  --secondary-title-color: #000028;
+  --content-title-color: #FF0070;
+  --button-color: var(--primary-color);
+  --header-decor-color: var(--primary-color);
+
+  /* Общие переменные, не зависящие от выбора темы */
+  --font-family: "IBM Plex Mono";
+  --basic-font-size: 18px;
+  --content-padding: 10px;
+  --title-font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+}
+
+@media (width >= 768px) {
+  .page {
+  --content-padding: 20px;
+  --title-font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+  }
+}
+
+
