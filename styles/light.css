@@ -16,7 +16,7 @@
   --description-text-color: #353430;
   --main-title-color: #ffc2e6;
   --secondary-title-color: #000028;
-  --content-title-color: #000028;
+  --content-title-color: #353430;
   --button-color: var(--main-text-color);
   --header-decor-color: var(--main-text-color);
 }
@@ -37,6 +37,10 @@
     --content-title-color: #000028;
     --button-color: var(--main-text-color);
     --header-decor-color: var(--main-text-color);
+  }
+
+  .theme-light .page .header__theme-rec {
+    display: none;
   }
 
   .page .header__theme-rec {

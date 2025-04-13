@@ -19,4 +19,9 @@
   --content-title-color: #FF0070;
   --button-color: var(--primary-color);
   --header-decor-color: var(--primary-color);
+
+  .page .header__theme-rec {
+    display: block;
+  }
 }
+
